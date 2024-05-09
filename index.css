@@ -1,0 +1,64 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.main-area {
+  display: flex;
+  flex-direction: row;
+}
+
+.table {
+  width: 40%;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+td,
+th {
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.context {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border: 1px solid black !important;
+  width: 41%;
+  padding: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.start,
+.reset {
+  width: 63%;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.output {
+  background-color: rgb(0, 0, 0);
+  color: greenyellow;
+  width: 60%;
+  height: 80%;
+  overflow-y: scroll;
+}
